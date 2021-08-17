@@ -1,2 +1,2 @@
-# bcopa-e
-Repository for Balanced COPA Explained
+# COPA-SSE
+Repository for Semi-Structured Explanations for COPA.
