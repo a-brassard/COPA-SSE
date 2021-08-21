@@ -29,9 +29,9 @@ Each entry contains:
 id: 1, 
 asks-for: cause, 
 most-plausible-alternative: 1,
-p: My body cast a shadow over the grass., 
-a1: The sun was rising., 
-a2: The grass was cut., 
+p: "My body cast a shadow over the grass.", 
+a1: "The sun was rising.", 
+a2: "The grass was cut.", 
 human-explanations: [
     {expl-id: f4d9b407-681b-4340-9be1-ac044f1c2230, 
      text: "Sunrise causes casted shadows.", 
