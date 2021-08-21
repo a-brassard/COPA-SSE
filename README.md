@@ -62,7 +62,6 @@ human-explanations: [
 
 ## Citation
 Thank you for your interest in our dataset!
-You can cite it as:
+Our paper is still under review. Stay tuned! :)
 ```
-(under review)
 ```
