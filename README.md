@@ -64,11 +64,11 @@ human-explanations: [
 Thank you for your interest in our dataset! If you use it in your research, please cite:
 ```
 @inproceedings{
-brassard2021copasse,
-title={{COPA}-{SSE}: Semi-Structured Explanations for Commonsense Reasoning},
-author={Ana Brassard and Benjamin Heinzerling and Pride Kavumba and Kentaro Inui},
-booktitle={Workshop on Commonsense Reasoning and Knowledge Bases},
-year={2021},
-url={https://openreview.net/forum?id=BigczdxQlGm}
+    brassard2021copasse,
+    title={{COPA}-{SSE}: Semi-Structured Explanations for Commonsense Reasoning},
+    author={Ana Brassard and Benjamin Heinzerling and Pride Kavumba and Kentaro Inui},
+    booktitle={Workshop on Commonsense Reasoning and Knowledge Bases},
+    year={2021},
+    url={https://openreview.net/forum?id=BigczdxQlGm}
 }
 ```
