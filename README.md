@@ -1,5 +1,5 @@
 # COPA-SSE
-Repository for [**Semi-Structured Explanations for COPA (COPA-SSE)**](https://openreview.net/pdf?id=BigczdxQlGm).
+Repository for [**COPA-SSE: Semi-Structured Explanations for Commonsense Reasoning**](https://openreview.net/pdf?id=BigczdxQlGm).
 
 
 ![Crowdsourcing protocol](crowdsourcing_protocol.png)
