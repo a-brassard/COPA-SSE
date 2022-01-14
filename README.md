@@ -46,7 +46,7 @@ human-explanations: [
 
 ## Aggregated versions
 
-`graphs.pkl` contains aggregated versions of the triples for each question (dictionary format with question id as the key). 
+`graphs.pkl` contains aggregated versions of the triples for each question in a dictionary format with COPA question ids as the key.
 
 Each entry contains a list of edges, each being a tuple of (u, v, {'rel': relation, 'weight': weight}). Similar nodes were connected or merged with `relatedto`, depending on the cosine similarity between their `SentenceTransformer` embeddings. The weight is the average score of the explanation the edge originated from (summed if multiple).
 * Note: not all graphs are (weakly) connected. 
