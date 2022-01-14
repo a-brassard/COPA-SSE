@@ -47,7 +47,7 @@ human-explanations: [
 ## Aggregated versions
 
 `graphs.pkl` contains aggregated versions of the triples for each question (dictionary format with question id as the key).
-Each entry contains a list of edges, each being a tuple of (u, v, {'rel': relation, 'weight': weight}). The list can be passed as-is to a `NetworkX.MultiDiGraph` constructor. Similar nodes were connected or merged with `relatedto`, depending on the cosine similarity between their `SentenceTransformer` embeddings.
+Each entry contains a list of edges, each being a tuple of (u, v, {'rel': relation, 'weight': weight}). The list can be passed as-is to a `NetworkX.MultiDiGraph` constructor. Similar nodes were connected or merged with `relatedto`, depending on the cosine similarity between their `SentenceTransformer` embeddings. The weights is the score given to the explanation the edge originated from (summed if multiple).
 * Note: not all graphs are weakly connected. 
 
 
