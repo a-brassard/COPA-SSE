@@ -44,18 +44,20 @@ human-explanations: [
      }, ...]
 ```
 
-### Aggregated versions (WIP)
+## Aggregated versions
 
-`graphs.pk` contains preliminary aggregated versions of the triples for each question (dictionary format with question id as the key). This file will be updated in the future.
+`graphs.pkl` contains aggregated versions of the triples for each question (dictionary format with question id as the key).
+Each entry contains a list of edges, each being a tuple of (u, v, {'rel': relation, 'weight': weight}). The list can be passed as-is to a `NetworkX.MultiDiGraph` constructor. 
+* Note: not all graphs are weakly connected. 
 
 
 ### Example entry:
 ```
-3: [
- ('person', 'ReceivesAction', 'catch'),
- ('meet', 'MannerOf', 'catch'),
- ('woman', 'Desires', 'catch'),
- ('coffee', 'ReceivesAction', 'drink'),
+1: [('sunrise', 'casted_shadows', {'rel': 'causes', 'weight': 3.25}),
+  ('sunrise', 'sun', {'rel': 'relatedto', 'weight': 1.0}),
+  ('casted_shadows', 'the_shadow', {'rel': 'relatedto', 'weight': 1.0}),
+  ('sun_rising', 'bringing_light', {'rel': 'hasproperty', 'weight': 4.25}),
+  ('sun_rising', 'a_sun_raising', {'rel': 'relatedto', 'weight': 1.0}),
  ...
 ]
 ```
