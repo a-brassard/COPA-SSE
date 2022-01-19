@@ -1,5 +1,5 @@
 # COPA-SSE
-Repository for [**COPA-SSE: Semi-Structured Explanations for Commonsense Reasoning**](https://openreview.net/pdf?id=BigczdxQlGm).
+Repository for [**COPA-SSE: Semi-Structured Explanations for Commonsense Reasoning**](https://arxiv.org/abs/2201.06777).
 
 
 ![Crowdsourcing protocol](crowdsourcing_protocol.png)
@@ -66,12 +66,12 @@ Each entry contains a list of edges, each being a tuple of (u, v, {'rel': relati
 ## Citation
 Thank you for your interest in our dataset! If you use it in your research, please cite:
 ```
-@inproceedings{
-    brassard2021copasse,
-    title={{COPA}-{SSE}: Semi-Structured Explanations for Commonsense Reasoning},
+@misc{brassard2022copasse,
+    title={COPA-SSE: Semi-structured Explanations for Commonsense Reasoning},
     author={Ana Brassard and Benjamin Heinzerling and Pride Kavumba and Kentaro Inui},
-    booktitle={Workshop on Commonsense Reasoning and Knowledge Bases},
-    year={2021},
-    url={https://openreview.net/forum?id=BigczdxQlGm}
+    year={2022},
+    eprint={2201.06777},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
 }
 ```
