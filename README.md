@@ -66,12 +66,16 @@ Each entry contains a list of edges, each being a tuple of (u, v, {'rel': relati
 ## Citation
 Thank you for your interest in our dataset! If you use it in your research, please cite:
 ```
-@misc{brassard2022copasse,
-    title={COPA-SSE: Semi-structured Explanations for Commonsense Reasoning},
-    author={Ana Brassard and Benjamin Heinzerling and Pride Kavumba and Kentaro Inui},
-    year={2022},
-    eprint={2201.06777},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
+@InProceedings{copa-sse:LREC2022,
+  author    = {Brassard, Ana  and  Heinzerling, Benjamin  and  Kavumba, Pride  and  Inui, Kentaro},
+  title     = {COPA-SSE: Semi-structured Explanations for Commonsense Reasoning},
+  booktitle      = {Proceedings of the Language Resources and Evaluation Conference},
+  month          = {June},
+  year           = {2022},
+  address        = {Marseille, France},
+  publisher      = {European Language Resources Association},
+  pages     = {3994--4000},
+  url       = {https://aclanthology.org/2022.lrec-1.425}
 }
+
 ```
